@@ -1,0 +1,43 @@
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Node.js dependencies (if used in the future)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+.cache/
+
+# VS Code settings
+.vscode/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+server/.env
+
+# SQLite database files
+*.db
+*.db-wal
+*.db-shm
+
+# Backup files
+*.bak
+
+# Internal working documents (not for public repo)
+AEGIS_IMPROVEMENT_PLAN_LITE.md
+CODE_REVIEW_REPORT.md
+RESUME_ANALYSIS.md
+
